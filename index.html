@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEA APPS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400, 700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <!---- DROPDOWN MENU --->
+    <div class="container_drop">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+
+        <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#splash">HOME</a>
+                <a href="#app">KEA RENT</a>
+                <a href="#idea">IDÉERNE</a>
+                <a href="#test">PROTOTYPE TESTS</a>
+                <a href="#design">DESIGN</a>
+                <a href="#scrum">DAILY SCRUM</a>
+                <a href="#work">ARBEJDSPROCES</a>
+                <a href="#contact">KONTAKT</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<body>
+    <div id="nav_menu">
+        <nav id="primary_nav_wrap">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="#app">APP</a></li>
+                <li><a href="#idea">IDÉERNE</a>
+                    <ul>
+                        <li><a href="#idea">PIN POINTS</a></li>
+                        <li><a href="#idea">PERSONA</a></li>
+                    </ul>
+
+                    <li><a href="#test">PROTOTYPE TESTS</a>
+                        <ul>
+                            <li><a href="#test">IDÉ #1</a></li>
+                            <li><a href="#test2">IDÉ #2</a></li>
+                            <li><a href="#test3">IDÉ #3</a></li>
+                            <li><a href="#data">DATAKODNING</a></li>
+                            <li><a href="#test4">VALG AF IDÉ</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#design">DESIGN</a>
+                        <ul>
+                            <li><a href="#design">MOODBOARD</a></li>
+                            <li><a href="#design">STYLE TILE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#scrum">DAILY SCRUM</a></li>
+
+                    <li><a href="#work">ARBEJDSPROCES</a>
+                        <ul>
+                            <li><a href="#work">BURNDOWNCHART</a></li>
+                            <li><a href="#work">TRELLO BOARD</a></li>
+                            <li><a href="#work">STORYBOARDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <section id="splash"></section>
+
+
+    <section id="app">
+        <h1>IDÉEN BAG KEA RENT</h1>
+        <div class="sectionwrapper">
+            <div class="column_1">
+                <h2>PROBLEMSTILLING</h2>
+                <p>På <strong>KEA DIGITAL</strong> er udlejningsprocessen forældet, da den laves på papir. Det resulterer i, at det tager lang tid at låne udstyr, da man skal stå og udfylde ens information for hvert udstyr som man vil låne på hvert sit papir.</p>
+
+                <p>Ydermere har man som studerende intet overblik over, hvilket udstyr, som er til rådighed medmindre man fysisk møder op og spørger i administrationen.</p>
+                <p>
+                    Tilsvarende er listen over udstyr forvirrende, da man på denne heller ikke kan se hvad de forskellige ting dækker over medmindre man allerede har kendskab til udstyret.
+                    <br>F.eks. kunne man godt være i tvivl om hvad 'Canon Kit', 'Zoom' og 'Cam Caddie' indebærer.</p>
+                <p>
+                    Til sidst, bliver der brugt alt for meget papir, som i sidste ende bare bliver makuleret og smidt ud efter man har afleveret udstyret.
+                </p>
+                <div class="link"><a href="http://www.benjaminbonnichsen.dk/kea/04-ux/04_01_03_gruppe9_afleveringssite/" target="_blank">LINK TIL PRÆSENTATIONSSITE</a></div>
+            </div>
+            <div class="column_2">
+                <h2>IDÉBESKRIVELSE</h2>
+                <p>Vi vil lave en app, der gør det nemmere for de studerende at låne udstyr og få overblik over hvad, som er til rådighed samt hvad de forskellige ting dækker over. </p>
+
+                <p>Derudover vil det også blive nemmere for administrationen at holde styr på hvem der har lejet hvad, hvor meget udstyr som er tilbage etc.</p>
+                <p>
+                    Ydermere vil vi gøre det muligt at reservere, hvilket bl.a. gør det muligt at foretage en reservation hjemmefra. Dermed kan administrationen også på forhånd finde udstyret frem samt tjekke om alt er der. På den måde skal den studerende blot oplyse navn samt få lånet godkendt via. appen.</p>
+
+                <p>Til sidst, vil vi i fælleskab også mindske papirforbruget, og dermed skåne miljøet, da selve udlejningsprocessen bliver digitaliseret og blot er et par klik væk fremfor en masse papirarbejde.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="idea">
+        <h1>IDÉERNE BAG KEA APPS</h1>
+        <h3>PIN POINTS</h3>
+        <div class="sectionwrapper">
+
+            <div class="pin_1">
+                <h2>KEA INFO</h2>
+                <ol>
+                    <li>Det er svært at finde information omkring lærerne såsom e-mail etc.</li>
+                    <li>Som studerende ved vi ikke hvilket udstyr, der er til rådighed medmindre vi går ned i administrationen, hvor det eneste de har er en oversigt med navnet på udstyret.</li>
+                    <li>Det kunne også gøres nemmere at finde information omkring administrationen, åbningstider osv.</li>
+                </ol>
+            </div>
+            <div class="pin_2">
+                <h2>KEA SCHEDULE</h2>
+
+                <ol>
+                    <li>Det er for besværligt at tjekke sit skema og info vedr. undervisningen, når du først skal ind på fronter. Derudover er fronter og den nuværende skema-løsning ikke mobile-friendly og du kan derfor ikke se alt.</li>
+                    <li>Det er svært at lægge mærke til skemaændringer, da du ikke får nogle notifikationer omkring ændringer i skemaet.</li>
+                    <li>Det er irriterende, at man skal scrolle sig frem til den pågældende uge i stedet for, at det kunne gøres ved 1-2 klik!</li>
+                </ol>
+            </div>
+            <div class="pin_3">
+                <h2>KEA RENT</h2>
+                <ol>
+                    <li>Det er frustrerende, at man ikke ved hvilket udstyr, der er til rådighed!</li>
+                    <li>Det er irriterende, at man skal udfylde så mange papir når man skal låne udstyr, og det er en tidskrævende proces!</li>
+                    <li>Nogle gange kan man glemme hvornår det skal afleveres da man ikke har nogen “aftale/kvittering” liggende, som fortæller en om det.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="link"><a href="documents/persona.pdf" target="_blank">PERSONA</a></div>
+    </section>
+
+    <section id="test">
+        <h1>PROTOTYPE TESTS</h1>
+        <div id="test1">
+            <div class="video">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/JwXi8yoI5tM" frameborder="0" gesture="media" allowfullscreen></iframe>
+            </div>
+            <div class="text">
+                <h2>PAPER PROTOTYPE 1</h2>
+                <p>Bemærkninger fra vores testperson: <br> 1:06 - “er det så både for studerende og for lærer?” <br> 1:11 - “hvis den kun er opdateret for studerende så ville der jo være et problem” <br> 2:02 - “virkelig god idé, men jeg ville nok udvide den til så den kunne gå begge veje”<br> 2:08 - “vi er jo ret afhængig af lærernes opdatering”<br><br> Konklusion til idé 1: App’en skal udvikles så den er tilgængelig for både de studerende og underviserne, således at underviserne kan lave øjeblikkelige ændringer, da eleverne er afhængig af lærernes opdateringer. </p>
+            </div>
+        </div>
+        <div id="test2">
+
+            <div class="text">
+                <h2>PAPER PROTOTYPE 2</h2>
+                <p>Bemærkninger fra vores testperson: <br> 0:40 - “meget mere overskueligt” <br> 1:34 - “hvis jeg går ind på udstyr er det fordi jeg skal leje et kamera, så må den jo videreføre til enten en information omkring hvornår og hvordan, eller at jeg kan gøre det direkte” <br> 1:46 - så man skal kombinere det? “ja”. <br><br> Konklusion til idé 2: Vores testperson forstår app’ens funktion ret hurtigt. Den studerende ville benytte app’en hvis man kunne leje udstyret direkte, derfor skal app’en videreudvikles så man direkte via app’en også er i stand til at leje udstyret. </p>
+            </div>
+            <div class="video"><iframe width="600" height="315" src="https://www.youtube.com/embed/AwOaRdI7Ph0" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+        </div>
+        <div id="test3">
+            <div class="video"><iframe width="600" height="315" src="https://www.youtube.com/embed/qSH_Gt0lV6k" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+            <div class="text">
+                <h2>PAPER PROTOTYPE 3</h2>
+                <p>Bemærkninger fra vores testperson: <br> Tidsrum: <br> 1:33 - “jeg kan rent faktisk reserver det på forhånd og ikke kun på dagen, det smart” <br> 2:29 - “Der regner jeg med at jeg kan se hvornår jeg kan hente udstyret og hvem jeg skal ringe til, hvis jeg har problemer med reserver eller andet” (kontakt del) <br> 3:25 - “Nogle af hovedmenuer kunne være ind under de enkelte”<br> 4:15 - “Jeg tror der er nogle af de her ting jeg ville springe over, og vælge ikke at gå ind på f.eks. regler, som kunne ind under når man bekræfter. <br><br> Konklusion til idé 3: testpersonen er forvirret over hvad det handler om, men er klar over at hun er logget ind på kea. Hun forstår udlejning processen/nemt forstår hvordan man reserver. Den studerende ønsker en lettere tilgang til udstyret og, at man efter udlejningen kan læse og efterfølgende acceptere reglerne, men er samtidig overrasket over man kan reserver forud. Dette kunne f.eks. gøres med en popup besked efter godkendt reservation/udlån. Yderligere, skal man have mulighed for at vælge, at sende kvitteringen på mail.</p>
+            </div>
+
+        </div>
+        <div id="data">
+            <h2>DATAKODNING</h2>
+            <div id="billedeaftest"></div>
+        </div>
+
+
+        <div id="test4">
+            <h2>VALG AF ENDELIG IDÉ</h2>
+            <div class="text">
+                <h2>PAPER PROTOTYPE: FINAL </h2>
+                <p>Vi har valgt at gå videre med en ny og forbedret udgave af KEA RENT, hvor vi har inkooporeret nogle af de andre app's features således, at man får mest muligt udbytte af vores app.</p>
+                <p><br>Bemærkninger fra vores testperson: <br> 0:10 - “I kunne måske godt opdatere den lidt - det ikke tydeligt, at det er et kamera" <br> 3:10 - “Hvis jeg klikker på den her - kommer der så en lille info-box ned her eller bliver jeg sendt tilbage hertil (information)?” -<br> 3:26 - "Umiddelbart ville jeg tænke, at der skulle komme en lille info-box hernede" <br> 4:06 "Ville du benytte dig af app'en?" - "Ja, det er super irriterende med alle de papirer, som man egentlig ikke rigtig bruger til noget". <br> 4:16 - "Jeg tror også det vil være nemmere for dem at holde styr på udlejning". <br><br> Konklusion til endelig idé: Vores testperson synes godt, at vores splash kunne være mere tydeligt i forhold app'ens funktion, men derefter forstår hun indholdet ret hurtigt. Den studerende er begejstret for app'en og udtaler og understreger selv behovet for netop denne app, da hun også finder papirblanketten irriterende og tidskrævende såvelsom spild af papir.<br></p>
+
+                <p>
+                    <br> Den studerende foreslår bl.a. at flytte information omkring udstyret indunder selve udlejningssiden således, at man ikke skal gå frem og tilbage for at finde ud af ting om det enkelte udstyr.
+                </p>
+            </div>
+            <div class="video"><iframe width="600" height="315" src="https://www.youtube.com/embed/NujDdY_9pbY?list=PL-M0TZm3HcBOa8Nrcw3mpEOMuv2ghXxHf" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </section>
+    <section id="design">
+        <h1>DESIGN</h1>
+        <div class="sectionwrapper">
+            <div class="column_2">
+
+                <img src="img/colorpalette.png">
+                <p>
+                    Vi har valgt at benytte os af denne farvepalette, da det er den som ofte bliver brugt i samarbejde med Multimediedesigner-uddannelsen.</p>
+                <p>Vi har valgt bløde og støvede farver da det skaber ro og tryghed. På den måde forstyrer det heller ikke brugeren når de skal navigere rundt i vores app. Vi vil gerne gøre brugeroplevelsen så let, enkelt og overskuelig som muligt og det mener vi, at denne farvepalette er med til at understøtte.</p>
+                <p>
+                    Vi har valgt os at benytte letgenkendelige ikoner således, at brugeren ikke er i tvivl om hvad de enkelte knapper henviser til. <br> Derudover har vi designet vores eget ikon til selve app'en, som vi synes fremmer budskabet om udlejning af video udstyr. </p>
+                <p>Dertil har vi designet lignende ikoner til de andre KEA-afdelinger, hvor det repræsenterer den enkelte uddannelse, men bliver connected via. den gengående hånd i hvert ikon.
+                </p>
+            </div>
+            <div class="links">
+                <div class="link_1"><a href="documents/moodboard.pdf" target="_blank">MOODBOARD</a></div>
+                <div class="link_2"><a href="documents/style%20tile.pdf" target="_blank">STYLE TILE</a></div>
+
+            </div>
+        </div>
+    </section>
+    <section id="scrum">
+        <h1>DAILY SCRUM - VLOG</h1>
+
+        <div class="sectionwrapper">
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_1.mp4" type="video/mp4">
+  <source src="scrum/scrum_1.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 21.11.17 </h2>
+            </div>
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_2.mp4" type="video/mp4">
+  <source src="scrum/scrum_2.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 22.11.17</h2>
+            </div>
+        </div>
+        <div class="sectionwrapper">
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_3.mp4" type="video/mp4">
+  <source src="scrum/scrum_3.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 23.11.17 </h2>
+            </div>
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_4.mp4" type="video/mp4">
+  <source src="scrum/scrum_4.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 24.11.17</h2>
+            </div>
+        </div>
+        <div class="sectionwrapper">
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_5.mp4" type="video/mp4">
+  <source src="scrum/scrum_5.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 27.11.17 </h2>
+            </div>
+            <div class="scrum_video">
+
+                <video width="560" height="315" controls>
+  <source src="scrum/scrum_6.mp4" type="video/mp4">
+  <source src="scrum/scrum_6.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+                <h2>DAILY SCRUM <br> d. 28.11.17</h2>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <h1>ARBEJDSPROCES</h1>
+        <div class="sectionwrapper">
+
+            <div class="links">
+                <div class="link_1"><a href="documents/burndownchart.jpg" target="_blank">BURNDOWNCHART</a></div>
+                <div class="link_2"><a href="https://trello.com/b/9ursJbst/scrum-board" target="_blank">TRELLO BOARD</a></div>
+                <div class="link_4"><a href="documents/storyboards.pdf" target="_blank">STORYBOARDS</a></div>
+
+            </div>
+            <div class="column_2"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="sectionwrapper">
+            <h1>GRUPPEMEDLEMMER</h1>
+            <div class="column_1">
+                <div id="benjamin"></div>
+                <div id="maide"></div>
+                <div id="mari"></div>
+                <div id="mini"></div>
+                <div id="nanna"></div>
+            </div>
+            <div class="column_2">
+                <div class="benjamin">
+                    <h2>BENJAMIN</h2>
+                    <ul>
+                        <li><b>Mobil:</b> +45 31 36 92 96</li>
+                        <li><b>Mail:</b> benj2911@stud.kea.dk</li>
+                    </ul>
+                </div>
+                <div class="maide">
+                    <h2>MAIDE</h2>
+                    <ul>
+                        <li><b>Mobil:</b> +45 42 15 46 43</li>
+                        <li><b>Mail:</b> maid0024@stud.kea.dk</li>
+                    </ul>
+                </div>
+                <div class="mari">
+                    <h2>MARÍ</h2>
+                    <ul>
+                        <li><b>Mobil:</b> +45 27 89 69 09</li>
+                        <li><b>Mail:</b> mari48v8@stud.kea.dk</li>
+                    </ul>
+                </div>
+                <div class="mini">
+                    <h2>MINDAUGAS</h2>
+                    <ul>
+                        <li><b>Mobil:</b> +45 30 22 82 22</li>
+                        <li><b>Mail:</b> mind0004@stud.kea.dk</li>
+                    </ul>
+                </div>
+                <div class="nanna">
+                    <h2>NANNA</h2>
+                    <ul>
+                        <li><b>Mobil:</b> +45 51 18 83 98</li>
+                        <li><b>Mail:</b> nann2357@stud.kea.dk</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="java.js">
+        $(window).ready(function() {
+            setTimeout(function() {
+                $(".container_drop").click(function() {
+                    $(".container_drop").toggleClass("change");
+                    $(".dropdown").slideToggle();
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
