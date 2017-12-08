@@ -12,12 +12,23 @@ section {
     padding-top: 70px;
 }
 
+#logo {
+    background-image: url(logo/Repiblikken.png);
+    position: fixed;
+    z-index: 110;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    left: 25px;
+    top: 2px;
+}
+
 /*------ SECTIONS ------*/
 
 /*---- SPLASH ----*/
 
 #splash {
-    background-image: url(img/splash_all.jpg);
+    background-image: url(img/splash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,10 +37,8 @@ section {
 
 /*---- APP ----*/
 
-/*---- IDEA ----*/
-
 #app {
-    background-color: #DFB4A9;
+    background-color: #D47778;
     margin: 0;
     height: 100%;
 }
@@ -100,7 +109,7 @@ section {
 /*---- IDEA ----*/
 
 #idea {
-    background-color: #ECC2BB;
+    background-color: #AEBFCD;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -177,9 +186,9 @@ section {
 /*---- TEST ----*/
 
 #test {
-    background-color: #F6BAB3;
+    background-color: #599EA1;
     height: 100%;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 #test1 {
@@ -272,7 +281,7 @@ section {
 /*---- WORK ----*/
 
 #design {
-    background-color: #F3D4CE;
+    background-color: #2C3562;
     height: 100%;
 }
 
@@ -283,7 +292,7 @@ section {
     font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -336,7 +345,7 @@ section {
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #DFB4A9;
+    background-color: #e8d787;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -376,7 +385,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #F3D4CE;
+    background-color: #D47778;
 }
 
 #work h1 {
@@ -429,7 +438,7 @@ section {
 /*---- CONTACT ----*/
 
 #contact {
-    background-color: #ECC2BB;
+    background-color: #599EA1;
     padding-bottom: 70px;
 }
 
@@ -573,7 +582,7 @@ section {
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: rgb(177, 137, 130);
+    background-color: #000000;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -618,7 +627,7 @@ section {
     left: 0;
     margin: 0;
     margin-top: 1px;
-    background-color: rgb(177, 137, 130);
+    background-color: #000000;
     padding: 0;
     text-align: left;
 }
@@ -651,7 +660,7 @@ section {
 header {
     position: fixed;
     width: 100%;
-    background-color: rgb(177, 137, 130);
+    background-color: #000000;
     height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 4;
@@ -663,7 +672,7 @@ header {
     padding: 8px 20px;
     display: block;
     cursor: pointer;
-    background-color: rgb(177, 137, 130);
+    background-color: #000000;
     min-width: 280px;
 }
 
