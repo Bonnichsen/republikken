@@ -17,9 +17,9 @@ section {
     position: fixed;
     z-index: 110;
     background-size: cover;
-    height: 60px;
-    width: 60px;
-    left: 25px;
+    height: 4.4vw;
+    width: 4.6vw;
+    left: 2vw;
     top: 2px;
 }
 
@@ -610,7 +610,7 @@ section {
 }
 
 #primary_nav_wrap ul a:hover {
-    color: #ECC2BB;
+    color: #AEBFCD;
 }
 
 #primary_nav_wrap ul li {
@@ -698,7 +698,7 @@ header {
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-    background-color: #ECC2BB;
+    background-color: #AEBFCD;
 
 }
 
@@ -706,7 +706,7 @@ header {
 
 .change .bar2 {
     opacity: 0;
-    background-color: #ECC2BB;
+    background-color: #AEBFCD;
 
 }
 
@@ -715,7 +715,7 @@ header {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-    background-color: #ECC2BB;
+    background-color: #AEBFCD;
 }
 
 .dropdown {
@@ -764,10 +764,18 @@ header {
     nav {
         display: none;
     }
+
+    #logo {
+        right: 20px;
+        height: 50px;
+        width: 53px;
+        left: auto;
+    }
 }
 
 @media all and (min-width: 828px) {
     header {
         display: none;
+
     }
 }
