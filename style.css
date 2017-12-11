@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #DFB4A9;
+    background-color: #20212A;
     width: 100%;
 }
 
 section {
-    background-color: #DFB4A9;
+    background-color: #20212A;
     width: 100%;
     height: 600px;
     padding-top: 70px;
@@ -17,8 +17,8 @@ section {
     position: fixed;
     z-index: 110;
     background-size: cover;
-    height: 4.4vw;
-    width: 4.6vw;
+    height: 4.2vw;
+    width: 4.2vw;
     left: 2vw;
     top: 2px;
 }
@@ -28,17 +28,19 @@ section {
 /*---- SPLASH ----*/
 
 #splash {
-    background-image: url(img/splash.jpg);
+    margin-top: 20px;
+    background-image: url(img/splash_blue.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 46vw;
+    opacity: 0.8;
 }
 
 /*---- APP ----*/
 
 #app {
-    background-color: #D47778;
+    background-color: #20212A;
     margin: 0;
     height: 100%;
 }
@@ -59,7 +61,7 @@ section {
     font-size: 25px;
     font-family: 'Raleway';
     letter-spacing: 2px;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     margin: 10px;
 }
 
@@ -70,7 +72,7 @@ section {
 }
 
 #app a {
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     font-size: 2vw;
 }
 
@@ -109,7 +111,7 @@ section {
 /*---- IDEA ----*/
 
 #idea {
-    background-color: #AEBFCD;
+    background-color: #2D3139;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -124,7 +126,7 @@ section {
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-    font-family: 'Futura';
+    font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
@@ -133,14 +135,14 @@ section {
 #idea h2 {
 
     display: inline-block;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     display: flex;
     justify-content: space-around;
 }
 
 #idea h3 {
     font-size: 2vw;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     text-align: center;
 }
 
@@ -152,7 +154,7 @@ section {
 }
 
 #idea a {
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     font-size: 2vw;
 }
 
@@ -186,7 +188,7 @@ section {
 /*---- TEST ----*/
 
 #test {
-    background-color: #599EA1;
+    background-color: #3D4147;
     height: 100%;
     padding-bottom: 100px;
 }
@@ -233,7 +235,7 @@ section {
     font-size: 25px;
     font-family: 'Raleway';
     letter-spacing: 2px;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
 }
 
 #test4 h2 {
@@ -242,13 +244,13 @@ section {
     font-size: 25px;
     font-family: 'Raleway';
     letter-spacing: 2px;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
 }
 
 .video {
     flex-basis: 560px;
     flex-grow: 1;
-    margin: 0 0 0 20px;
+    margin: 80px 0 0 20px;
 }
 
 .text {
@@ -260,7 +262,7 @@ section {
     font-size: 1.2em;
     font-family: 'Open Sans';
     color: #F7F0E7;
-    margin: 0 20px;
+    margin: 20px 80px;
 }
 
 #data {
@@ -281,7 +283,7 @@ section {
 /*---- WORK ----*/
 
 #design {
-    background-color: #2C3562;
+    background-color: #646872;
     height: 100%;
 }
 
@@ -307,18 +309,14 @@ section {
     text-align: center;
     margin: 0 4vw;
     font-size: 20px;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     font-family: 'Raleway';
     letter-spacing: 5px;
 }
 
-#design a:hover {
-    color: rgb(177, 137, 130);
-}
-
 #design p {
     font-family: 'Open Sans';
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     margin: 20px 30px;
     text-align: center;
 }
@@ -345,7 +343,7 @@ section {
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #e8d787;
+    background-color: #2D3139;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -374,7 +372,7 @@ section {
     font-size: 20px;
     font-family: 'Raleway';
     letter-spacing: 2px;
-    color: #F7F0E7;
+    color: #AEBFCD;
 }
 
 .scrum_video {
@@ -385,7 +383,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #D47778;
+    background-color: #3D4147;
 }
 
 #work h1 {
@@ -411,20 +409,11 @@ section {
     text-align: center;
     margin: 0 4vw;
     font-size: 20px;
-    color: rgb(177, 137, 130);
+    color: #AEBFCD;
     font-family: 'Raleway';
     letter-spacing: 5px;
 }
 
-#work a:hover {
-    color: rgb(177, 137, 130);
-}
-
-#work p {
-    font-family: 'Open Sans';
-    color: #172C67;
-    margin: 30px;
-}
 
 #work .sectionwrapper {
     height: 100%;
@@ -438,7 +427,7 @@ section {
 /*---- CONTACT ----*/
 
 #contact {
-    background-color: #599EA1;
+    background-color: #20212A;
     padding-bottom: 70px;
 }
 
@@ -458,7 +447,7 @@ section {
     font-size: 20px;
     font-family: 'Raleway';
     letter-spacing: 2px;
-    color: #F7F0E7;
+    color: #AEBFCD;
 }
 
 #contact li {
@@ -466,7 +455,7 @@ section {
     font-size: 12px;
     font-family: 'Raleway';
     letter-spacing: 1px;
-    color: #F7F0E7;
+    color: #AEBFCD;
 }
 
 #contact .sectionwrapper {
@@ -587,6 +576,7 @@ section {
     width: 100%;
     text-align: center;
     z-index: 100;
+    top: 0;
 }
 
 #primary_nav_wrap ul {
@@ -659,6 +649,7 @@ section {
 
 header {
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: #000000;
     height: 55px;
@@ -770,6 +761,10 @@ header {
         height: 50px;
         width: 53px;
         left: auto;
+    }
+
+    #splash{
+        margin-top: 50px;
     }
 }
 
