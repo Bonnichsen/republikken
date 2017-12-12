@@ -194,23 +194,7 @@ section {
 }
 
 #test1 {
-    display: flex;
-    flex-wrap: wrap;
     padding: 5px;
-}
-
-#test2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    padding-top: 70px;
-}
-
-#test3 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    padding-top: 70px;
 }
 
 #test4 {
@@ -247,22 +231,24 @@ section {
     color: #AEBFCD;
 }
 
+#test4 .text {
+    margin: 20px 250px;
+}
+
 .video {
-    flex-basis: 560px;
-    flex-grow: 1;
-    margin: 25px 0 0 20px;
+    text-align: center;
 }
 
 .text {
-    flex-basis: 200px;
-    flex-grow: 10;
+    text-align: center;
+    margin: 20px 250px;
 }
 
 .text p {
-    font-size: 1.2em;
-    font-family: 'Open Sans';
     color: #F7F0E7;
-    margin: 20px 80px;
+    line-height: 25px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #data {
@@ -270,7 +256,7 @@ section {
 }
 
 #billedeaftest {
-    background-image: url(img/billedeaftest.jpg);
+    background-image: url(documents/Datakodning.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 600px;
@@ -309,7 +295,7 @@ section {
     text-align: center;
     margin: 0 4vw;
     font-size: 20px;
-    color: #AEBFCD;
+    color: #F7F0E7;
     font-family: 'Raleway';
     letter-spacing: 5px;
 }
@@ -345,7 +331,7 @@ section {
 #scrum {
     background-color: #2D3139;
     height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 51px;
 }
 
 #scrum .sectionwrapper {
@@ -395,6 +381,21 @@ section {
     color: #F7F0E7;
     margin-bottom: 20px;
 
+}
+
+#work h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: #AEBFCD;
+}
+
+#work p {
+    color: #F7F0E7;
+    line-height: 25px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #work .links {
@@ -619,6 +620,7 @@ section {
     margin-top: 1px;
     background-color: #000000;
     padding: 0;
+    padding-right: 30px;
     text-align: left;
 }
 
@@ -738,7 +740,7 @@ header {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    color: #ECC2BB;
+    color: #AEBFCD;
 }
 
 
