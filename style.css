@@ -78,6 +78,7 @@ section {
 
 #app .link {
     text-align: center;
+    font-family: 'Raleway';
     width: 100%;
     margin-top: 20px;
     margin-bottom: 70px;
@@ -104,6 +105,7 @@ section {
 #app .link {
     text-align: center;
     width: 200%;
+    font-family: 'Raleway';
     margin-top: 30px;
     margin-bottom: 70px;
 }
@@ -155,6 +157,7 @@ section {
 
 #idea a {
     color: #AEBFCD;
+    font-family: 'Raleway';
     font-size: 2vw;
 }
 
