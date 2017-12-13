@@ -271,6 +271,20 @@ section {
 
 /*---- WORK ----*/
 
+#ikon{
+    background-image: url(img/ikon.png);
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#ikon_box{
+    padding-top: 10px;
+}
+
 #design {
     background-color: #646872;
     height: 100%;
