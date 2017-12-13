@@ -8,7 +8,7 @@ body {
 section {
     background-color: #20212A;
     width: 100%;
-    height: 600px;
+    height: 900px;
     padding-top: 70px;
 }
 
@@ -406,7 +406,7 @@ section {
     display: inline-block;
     display: flex;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 
