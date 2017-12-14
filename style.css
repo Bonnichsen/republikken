@@ -271,7 +271,7 @@ section {
 
 /*---- WORK ----*/
 
-#ikon{
+#ikon {
     background-image: url(img/ikon.png);
     width: 400px;
     height: 400px;
@@ -281,7 +281,7 @@ section {
     margin-top: 100px;
 }
 
-#ikon_box{
+#ikon_box {
     padding-top: 10px;
 }
 
@@ -387,6 +387,7 @@ section {
 
 #work {
     background-color: #3D4147;
+    height: 100%;
 }
 
 #work h1 {
@@ -441,6 +442,17 @@ section {
     justify-content: center;
 }
 
+#work .column_2 p {
+    margin: 20px 15%;
+    text-align: center;
+    color: #F7F0E7;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#work .column_2 {
+    margin-top: 50px;
+}
 
 /*---- CONTACT ----*/
 
@@ -451,12 +463,11 @@ section {
 
 #contact h1 {
     text-align: center;
-    margin: 0;
     font-size: 4.5vw;
     font-family: 'Raleway';
     letter-spacing: 5px;
     color: #F7F0E7;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 #contact h2 {
@@ -491,7 +502,8 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 30px 0px 0px 0px;
+    margin: 0px;
+    margin-top: -200px;
 }
 
 #contact .column_2 {
@@ -499,7 +511,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 40px 0px 0px 0px;
+    margin-top: -100px;
 }
 
 #benjamin {
